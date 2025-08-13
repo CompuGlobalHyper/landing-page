@@ -52,12 +52,13 @@ a:hover {
     padding-right: 50px;
     min-width: 300px;
 }
-.upper-text {
-    color: #f9faf8;
+p.upper-text {
+    color: #a5a7ab;
 }
 h1 {
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
 }
 img {
     max-width: 100%;
@@ -86,6 +87,7 @@ button {
     justify-content: space-around;
     align-items: center;
     padding: 50px 100px;
+    flex-wrap: wrap;
 }
 
 .img-border {
@@ -97,12 +99,78 @@ button {
 }
 
 .body-two-img-child {
-    flex-wrap: wrap;
     max-width: 300px;
     max-height: 259px;
+    margin-top: 16px;
 }
 
 p.img-text {
     max-width: 200px;
-    font-weight: 400;
+    color: #1f2937;
+}
+.body-three {
+    background-color: #e5e7eb;
+}
+.body-three-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    margin-right: auto;
+    margin-left: 600px;
+}
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.author {
+    margin-left: auto;
+    margin-right: 600px;
+    align-self: end;
+    margin-bottom: 24px;
+}
+.author-text {
+    font-weight: 600;
+    font-size: 20px;
+}
+.sign-up {
+    background-color: #3882f6;
+    margin: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 5px;
+}
+
+.sign-up-header {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.sign-up-text {
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+.sign-up-button {
+    border: 3px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f2937;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color: #a5a7ab
 }
